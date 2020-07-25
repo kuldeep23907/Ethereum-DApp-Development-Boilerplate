@@ -2,6 +2,7 @@
   "name": "ethereum_boilerplate",
   "version": "1.0.0",
   "description": "This is a boiler plat setup for ethereum dapp development",
+  "repository": "https://github.com/kuldeep23907/Ethereum_DApp_BoilerPlate",
   "main": "compile.js",
   "directories": {
     "test": "test"
@@ -12,9 +13,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dot-env": "0.0.1",
+    "dotenv": "^8.2.0",
     "ganache-cli": "^6.9.1",
     "mocha": "^8.0.1",
     "solc": "^0.6.12",
+    "truffle-hdwallet-provider": "^1.0.17",
     "web3": "^1.2.11"
   }
 }
