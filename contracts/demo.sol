@@ -3,8 +3,8 @@ pragma solidity ^0.6.0;
 contract Demo {
     string public str;
 
-    constructor() public {
-        str = "Hello world!";
+    constructor(string memory _str) public {
+        str = _str;
     }
 
     function updateString(string memory _str) public {
